@@ -145,4 +145,4 @@ def get_prev_history(id):
         return jsonify({'error': 'No previous record found'}), 404
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5002)
+    app.run(debug=True, port=5000)
